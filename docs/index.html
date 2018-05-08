@@ -1,65 +1,102 @@
 <!doctype html>
 <html>
 	<head>
-		<title>IMA Zebra</title>
+		<title>I am Alvaro</title>
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/global.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=true;">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 	</head>
 	<body>
-		<header>
-			<nav>
+		<div id="wrapper">
+			<header>
+				<nav>
+					<div class="container">
+						<h1 id="brand">I am Alvaro</h1>
+					    <ul>
+					        <li><a href="#language">Language</a></li>
+					        <li><a href="#facts">Facts</a></li>
+					        <li><a href="#places">Places to visit</a></li>
+					    </ul>
+					</div>
+				</nav>
+			</header>
+
+			<section id="hero">
+				<img src="images/me.png" alt="Alvaro" class="rotate" />
+				<h2>I am Alvaro</h2>
+				<span class="city">I COME FROM CHILE</span>
+			</section>
+
+			<section id="main-content">
 				<div class="container">
-					<h1 id="brand">IMA Zebra</h1>
-				    <ul>
-				        <li><a href="#home">My Home</a></li>
-				        <li><a href="#diet">My Diet</a></li>
-				        <li><a href="#pattern">Stripes</a></li>
-				    </ul>
+					<h3>Some things about Chile</h3>
+					<section class="column" id="language">
+						<img src="images/mapuches.jpg" alt="mapuches">
+						<h4>Language</h4>
+						<p>Spanish in the official language of Chile. There are also quite a few indigenous languages such as  Mapudungun (spoken between the Itata and Tolten rivers) and Aymara (spoken in the mountains of the north).</p>
+						<a href="" class="btn">See my home</a>
+					</section>
+					<section class="column" id="facts">
+						<img src="images/torresdelpaine.jpg" alt="Grass">
+						<h4>Facts and Statistics</h4>
+						<p>
+							<ul>
+								<li><strong>Location:</strong> Southern South America, bordering the South Pacific Ocean, between Argentina and Peru</li>
+
+								<li><strong>Capital:</strong> Santiago</li>
+
+								<li><strong>Population:</strong> 17,363,894 (July 2014 est.)</li>
+
+								<li><strong>Ethnic Groups:</strong> white and white-Amerindian 95%, Amerindian 3%, other 2%</li>
+
+								<li><strong>Religions:</strong> Roman Catholic 89%, Protestant 11%, Jewish NEGL%</li>
+							</ul>
+						</p>
+						<a href="" class="btn">Facts</a>
+					</section>
+					<section class="column" id="places">
+						<img src="images/mapuche_flag.png" alt="Mapuche Flag">
+						<h4>Best places to visit in Chile</h4>
+						<p>
+							<ul>
+								<li>Chiloe Island <strong>(Plan your Visit)</strong></li>
+								<li>Iquique <strong>(Where to Stay)</strong></li>
+								<li>Chilean Fjords.</li>
+								<li>Valparaiso <strong>(Where to Stay)</strong></li>
+								<li>Chilean Lake District <strong>(Where to Stay)</strong></li>
+								<li>San Pedro de Atacama <strong>(Where to Stay)</strong></li>
+								<li>Torres del Paine.</li>
+								<li>Easter Island <strong>(Where to Stay)</strong></li>
+							</ul>
+						</p>
+						<a href="" class="btn">Places</a>
+					</section>
 				</div>
-			</nav>
-		</header>
-		<section id="hero">
-			<img src="images/zebra.jpg" alt="Zebra" />
-			<h2>IMA Zebra</h2>
-			<span class="city">Africa</span>
-		</section>
-		<section id="main-content">
-			<div class="container">
-				<h3>I'm a zebra.</h3>
-				<section class="column" id="home">
-					<img src="images/africa.png" alt="Africa">
-					<h4>My Home</h4>
-					<p>Wild zebras live in Africa. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur.</p>
-					<a href="" class="btn">See my home</a>
-				</section>
-				<section class="column" id="diet">
-					<img src="images/grass.jpg" alt="Grass">
-					<h4>My Diet</h4>
-					<p>Zebras eat grass primarily. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur.</p>
-					<a href="" class="btn">Grass is great</a>
-				</section>
-				<section class="column" id="pattern">
-					<img src="images/stripes.jpg" alt="Zebra Stripes">
-					<h4>Zebra Stripes</h4>
-					<p>Each Zebra has a unique stripe pattern. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur.</p>
-					<a href="" class="btn">Check out my stripes</a>
-				</section>
-			</div>
-		</section>
-		<section id="social">
-			<div class="container">
-				<h3>I'm pretty social too. We should be friends.</h3>
-				<ul>
-					<li><img src="images/facebook.svg" alt="Facebook" /></li>
-					<li><img src="images/twitter.svg" alt="Twitter" /></li>
-					<li><img src="images/instagram.svg" alt="Instagram" /></li>
-					<li><img src="images/linkedin.svg" alt="LinkedIn" /></li>
-				</ul>
-			</div>
-		</section>
-		<footer>
-			<p>&copy; 2015 IMA Zebra</p>
-		</footer>
+			</section>
+			<section id="social">
+				<div class="container">
+					<h3>I'm pretty social too. We should be friends.</h3>
+					<ul>
+						<li>
+							<i class="fab fa-facebook"></i>
+						</li>
+						<li>
+							<i class="fab fa-twitter"></i>
+						</li>
+						<li>
+							<i class="fab fa-instagram"></i>
+						</li>
+						<li>
+							<i class="fab fa-linkedin"></i>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<footer>
+				<p>&copy; 2018 I am Alvaro</p>
+			</footer>
+		</div>
+
 	</body>
 </html>
