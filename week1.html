@@ -1,12 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Week 1</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    footer div {
+      width: 25%;
+      float: left;
+    }
+
+    section figure {
+      width: 15%;
+      float: left;
+    }
+
+    img {
+      margin: 15px;
+    }
+
+    section {
+      width: 100%;
+      float: left;
+    }
+
+    body {
+      margin: 0 50px;
+    }
+  </style>
 </head>
+
 <body>
+  <header>
+    <i class="material-icons">face</i>
+    <nav>
+      <div class="navbar">
+          <a href="#instruments">Instruments</a>
+          <a href="#groceries">Groceries</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#video">Video</a>
+        </div>
+    </nav>
+  </header>
+
+  <section class="headers">
+    <h1><i class="material-icons">format_indent_increase</i> Types of Headers </h1>
+    
+    <p>Testing different styles of headers</p>
+
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+    <h4>Header 4</h4>
+    <h5>Header 5</h5>
+    <h6>Header 6</h6>
+  </section>
+
+  <section id="instruments" class="instruments-section">
+    <h2>Instruments</h2>
+    <p>There are different styles of instruments and different styles of lists</p>
+    
+    <ul>
+      <li>piano</li>
+      <li>Flute</li>
+      <li>Guitar</li>
+      <li>Bass</li>
+    </ul>
+  </section>
+
+  <section id="groceries" class="groceries">
+    <h2>Grocery list</h2>
+    <p>How long can you live without food</p>
+    
+    <ol>
+      <li>piano</li>
+      <li>Flute</li>
+      <li>Guitar</li>
+      <li>Bass</li>
+    </ol>
+  </section>
   
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <p>This is a style of image gallery</p>
+
+    <figure>
+      <a href="images/unsplash/crates.jpg">
+        <img src="images/unsplash/crates.jpg" alt="Crates digging" width="280">
+      </a>
+      <figcaption>Example of crate digging</figcaption>
+    </figure>
+
+    <figure>
+      <a href="images/unsplash/instruments.jpg">
+        <img src="images/unsplash/instruments.jpg" alt="instruments" width="280">
+      </a>
+      <figcaption>Instruments</figcaption>
+    </figure>
+
+    <figure>
+      <a href="images/unsplash/player.jpg">
+        <img src="images/unsplash/player.jpg" alt="player" width="280">
+      </a>
+      <figcaption>Vynil Player</figcaption>
+    </figure>
+
+    <figure>
+      <a href="images/unsplash/street.jpg">
+        <img src="images/unsplash/street.jpg" alt="street digging" width="280">
+      </a>
+      <figcaption>Street crate digging</figcaption>
+    </figure>
+  </section>
+  
+  <section id="video"> 
+    <h2>Video Gallery</h2>
+    <ul>
+      <li>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K8c9xc18IZw?start=83" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </li>
+      <li>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aq18B4ERJ08?start=61" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <div>
+      <h3> Free Images from </h3>
+      <ul>
+        <li><a href="unsplash.com">Unsplash.com</a></li>
+        <li><a href="https://www.pexels.com">Pexels.com</a></li>
+      </ul>
+    </div>
+    
+    <div>
+      <h3>Free Icons from</h3>
+      <ul>
+        <li><a href="https://material.io/tools/icons/?style=baseline">Material Design</a></li>
+        <li><a href="https://fontawesome.com/">FontAwesome.com</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Free Fonts</h3>
+      <ul>
+        <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Links examples</h2>
+      <a href="https://www.yoobee.ac.nz/">Yoobee</a>
+      <br> <!-- Need for breaking a line -->
+      <a href="https://www.yoobee.ac.nz/" target="_blank">Yoobee <em>(different tab)</em> </a>
+    
+      <h2>Links examples 2</h2>
+      <ul>
+        <li><a href="https://www.yoobee.ac.nz/">Yoobee</a></li>
+        <li><a href="https://www.yoobee.ac.nz/" target="_blank">Yoobee <em>(different tab)</em></a></li>
+      </ul>
+    </div>
+  </footer>
+  
+
+  
+
 </body>
 </html>
